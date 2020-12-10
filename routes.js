@@ -27,6 +27,14 @@ import Language from "@material-ui/icons/Language";
 
 const dashboardRoutes = [
   {
+    path: "/dataupload",
+    name: "Upload your Data",
+    rtlName: "قم بتحميل بياناتك",
+    icon: Dashboard,
+
+    layout: "/admin",
+  },
+  {
     path: "/dashboard",
     name: "Dashboard",
     rtlName: "لوحة القيادة",
